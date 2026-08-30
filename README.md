@@ -44,6 +44,6 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
   - systemd service
   - Application
 
-### 06-Screenshots
+### Screenshots
 ---
 ## 🎯 Objectives
