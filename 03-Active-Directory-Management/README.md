@@ -56,11 +56,11 @@ With the last three belonging to a group IT Staff. Each user was created with so
 
 📷 DHCP Verification
 
-![DHCP Verification](../05-Screenshots/03-Active-Directory-Management/9-dhcp-verification.png)
+![DHCP Verification](../05-Screenshots/03-Active-Directory-Management/09-dhcp-verification.png)
 
 📷 DNS Verification
 
-![DNS Verification](../05-Screenshots/03-Active-Directory-Management/10-dns-verification)
+![DNS Verification](../05-Screenshots/03-Active-Directory-Management/10-dns-verification.png)
 
 - The client was then joined to the domain using the Administrator account in Active Directory Domain Services.
 - The client was then restarted and after the screenshots provided below the computer name was changed to `WIN10-CLIENT01`
