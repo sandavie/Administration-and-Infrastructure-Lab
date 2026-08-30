@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Man, {{title}}</title>
+    <link href="{{url_for('static', filename='css/style.css')}}" rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Weather Man</h1>
+    <form action="/results">
+        <input type="text" id="location" name="location" placeholder="Input location" />
+        <button type="sumbit">Search</button>
+    </form>
+    <p id="area">{{title}}</p>
+    <p>{{temp}} &deg</p>
+    <p>{{forecast}}</p>
+    <p>Feels like {{feels}} &deg</p>
+    <p>High: {{high}} &deg Low: {{low}} &deg</p>
+    <p>Wind Gust: {{wind}}</p>
+</body>
+
+</html>
