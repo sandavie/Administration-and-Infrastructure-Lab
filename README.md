@@ -8,39 +8,39 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 
 ## 📋 Table of Contents
 
-### [01-Environment-Setup](#environment-setup)
+### [Environment Setup](#environment-setup)
 
 - Objectives
 - Installation Media
 - Hardware and Software Specification
   
-### 02-Network-Setup
+### [Network Setup](02-Network-Setup/README.md)
 
 - VirtualBox Network Configuration
 - Windows Server Network Configuration
   
-### 03-Windows-Server-Configuration
+### [Windows Server Configuration](03-Windows-Server-Configuration/README.md)
 
 - Active Directory Domain Services and Domain
 - DNS
 - DHCP
   
-### 04-Active-Directory-Management
+### [Active Directory Management](04-Active-Directory-Management/README.md)
 
 - OUs-Users-Groups
 - Joining Client to Domain
 - Group Policy
   
-### 05-Linux-Server
-- 01-SSH
+### Linux Server
+- [SSH](05-Linux-Server/01-SSH/README.md)
   - SSH Configuration
   - Rsync File Transfer
-- 02-Network
+- [Network](05-Linux-Server/02-Network/README.md)
   - Network Configuration
   - Network Troubleshooting
-- 03-User-&-Group-Creation-&-Management
-- 04-File-Permissions
-- 05-Web-Application-Service
+- [User & Group Creation & Management](05-Linux-Server/03-User-&-Group-Creation-&-Management/README.md)
+- [File Permissions](05-Linux-Server/04-File-Permissions/README.md)
+- [Web Application Service](05-Linux-Server/05-Web-Application-Service/README.md)
   - Description and Application Testing
   - systemd service
   - Application
