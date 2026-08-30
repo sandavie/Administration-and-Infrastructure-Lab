@@ -8,29 +8,29 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 
 ## 📋 Table of Contents
 
-### [Environment Setup](01-Environment-&-Network-Setup/README.md)
+#### [Environment Setup](01-Environment-&-Network-Setup/README.md)
 
 - Installation Media
 - Hardware and Software Specification
   
-### [Network Setup](01-Environment-&-Network-Setup/README.md#-network-setup)
+#### [Network Setup](01-Environment-&-Network-Setup/README.md#-network-setup)
 
 - VirtualBox Network Configuration
 - Windows Server Network Configuration
   
-### [Windows Server Configuration](02-Windows-Server-Configuration/README.md)
+#### [Windows Server Configuration](02-Windows-Server-Configuration/README.md)
 
 - Active Directory Domain Services and Domain
 - DNS
 - DHCP
   
-### [Active Directory Management](03-Active-Directory-Management/README.md)
+#### [Active Directory Management](03-Active-Directory-Management/README.md)
 
 - OUs-Users-Groups
 - Joining Client to Domain
 - Group Policy
 
-### Linux Server
+#### Linux Server
 - [SSH](04-Linux-Server/01-SSH.md)
   - SSH Configuration
   - Rsync File Transfer
@@ -44,7 +44,7 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
   - systemd service
   - Application
 
-### Screenshots
+#### Screenshots
 ---
 ## 🎯 Objectives
 - Administer an Windows Server with Active Directory Domain Services, DNS, and DHCP
