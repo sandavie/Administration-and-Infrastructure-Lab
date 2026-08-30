@@ -34,7 +34,7 @@ WeatherMan
 - The `flaskapp.service` file was created
 - A series of systemd commands were run to reload the daemon, enable and start the service, and verify it's status
 - Then the deployment of the Flask app service was successfully tested
-- 
+  
 ![systemd Service Startup](../../05-Screenshots/04-Linux-Server/04-Web-Application-Service/03-systemd-service-startup.png)
 
 🌐 Service Testing
