@@ -8,9 +8,8 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 
 ## 📋 Table of Contents
 
-### [Environment Setup](#environment-setup)
+### [Environment Setup](01-Environment-Setup/README.md)
 
-- Objectives
 - Installation Media
 - Hardware and Software Specification
   
@@ -47,4 +46,4 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 
 ### 06-Screenshots
 ---
-## 🛠️ Environment Setup
+## 🎯 Objectives
