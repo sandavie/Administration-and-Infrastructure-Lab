@@ -65,13 +65,15 @@ After the Active Directory Domain Services were configured and installed, the sy
 
 🖼️ Active Directory DNS Zone
 
+- Confirmation that the DNS registration for the bridged adapter was successfully removed
+
 ![AD DNS Zone 2](../05-Screenshots/02-Windows-Server-Configuration/11-ad-dns-zone-2.png)
 
 - An `nslookup` command confirms the DNS server can resolve its domain to the appropriate internal IP
 
 ![nslookup](../05-Screenshots/02-Windows-Server-Configuration/12-nslookup.png)
 
-- Google's public DNS server was set as a forwarder for queries outside the servers zones. This was then tested by disabling root hints and using nslookup to confirm external domains could still be resolved
+- Google's public DNS server was set as a forwarder for queries outside the servers zones. This was then tested by disabling root hints and using `nslookup` to confirm external domains could still be resolved
 
 ![forwarder](../05-Screenshots/02-Windows-Server-Configuration/13-forwarder-configuration.png)
 
@@ -84,3 +86,31 @@ After the Active Directory Domain Services were configured and installed, the sy
 ![Reverse Lookup](../05-Screenshots/02-Windows-Server-Configuration/15-reverse-lookup-verification.png) 
 
 ## 📡 DHCP
+
+- Server options were configured after DHCP role installation with the appropriate server IP and domain name
+- Scope name was set: `DC Scope`
+  
+🖼️ Server Options
+![Server Options Router](../05-Screenshots/02-Windows-Server-Configuration/16-server-options-router.png)
+
+![Server Options NS](../05-Screenshots/02-Windows-Server-Configuration/17-server-options-ns.png) 
+
+![Server Options DNS DN](../05-Screenshots/02-Windows-Server-Configuration/18-server-options-dnsdn.png) 
+
+- IP address range was set to 10.0.0.100 - 10.0.0.200 to allow for assignment of static IP outside of that range as well as organization of dynamic IP assignment in the network
+
+![Scope IP Range](../05-Screenshots/02-Windows-Server-Configuration/19-scope-ip-range.png) 
+
+- Lease Duration was set to 8 days
+
+🖼️ Domain Name DNS
+
+![Domain Name DNS](../05-Screenshots/02-Windows-Server-Configuration/20-domain-name-dns.png) 
+
+- DNS service was then successfully validated
+- The scope was activated
+- DHCP was then authorized
+
+🖼️ Scope Activation
+
+![Scope Activation](../05-Screenshots/02-Windows-Server-Configuration/21-scope-active.png) 
