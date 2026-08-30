@@ -29,6 +29,7 @@
 ### 📋 Additional Tools and Specifications
 - Domain: ad.example.com
 - Internal Network Name: labnet1
+- Visual Studio Code
 - Powershell
 - Command Prompt
 - 7-Zip 26.02
