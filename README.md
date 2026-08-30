@@ -31,15 +31,15 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 - Group Policy
   
 ### Linux Server
-- [SSH](05-Linux-Server/01-SSH/README.md)
+- [SSH](05-Linux-Server/01-SSH.md)
   - SSH Configuration
   - Rsync File Transfer
-- [Network](05-Linux-Server/02-Network/README.md)
+- [Network](05-Linux-Server/02-Network.md)
   - Network Configuration
   - Network Troubleshooting
-- [User & Group Creation & Management](05-Linux-Server/03-User-&-Group-Creation-&-Management/README.md)
-- [File Permissions](05-Linux-Server/04-File-Permissions/README.md)
-- [Web Application Service](05-Linux-Server/05-Web-Application-Service/README.md)
+- [User & Group Creation & Management](05-Linux-Server/03-User-&-Group-Creation-&-Management.md)
+- [File Permissions](05-Linux-Server/04-File-Permissions.md)
+- [Web Application Service](05-Linux-Server/05-Web-Application-Service.md)
   - Description and Application Testing
   - systemd service
   - Application
