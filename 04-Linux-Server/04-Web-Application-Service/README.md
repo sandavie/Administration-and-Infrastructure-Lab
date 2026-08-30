@@ -30,5 +30,16 @@ WeatherMan
 
 ![rsync 2](../05-Screenshots/04-Linux-Server/04-Web-Application-Service/02-rsync-2.png)
 
-The directory was then copied into `/opt/flaskapp/` using the `cp` command
+- The directory was then copied into `/opt/flaskapp/` using the `cp` command
+- The `flaskapp.service` file was created
+- A series of systemd commands were run to reload the daemon, enable and start the service, and verify it's status
+- Then the deployment of the Flask app service was successfully tested
+- 
+!systemd Service Startup](../05-Screenshots/04-Linux-Server/04-Web-Application-Service/03-systemd-service-startup.png)
+
+🌐 Service Testing
+
+!systemd Service Verification](../05-Screenshots/04-Linux-Server/04-Web-Application-Service/04-service-verification.png)
+
+---
 
