@@ -16,7 +16,7 @@ The OpenSSH Server was installed and enabled utilizing `apt` and `systemctl`. Th
 
 ![SSH Configuration](../05-Screenshots/04-Linux-Server/01-SSH/02-ssh-configuration.png)
 
-- On the server in `/etc/ssh/sshd_config`, the port was altered to `15515` and the password functionality for SSH connections was disabled
+- On the server in `/etc/ssh/sshd_config`, the port was altered to `15514` and the password functionality for SSH connections was disabled
 - `systemctl restart ssh`, `systemctl restart ssh`, and `systemctl status` were used to ensure it did not fail
 - Then a variety of commands were used to check for any files with conflicting password settings and those conflictions were rectified
 
