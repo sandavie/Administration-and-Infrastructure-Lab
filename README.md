@@ -8,38 +8,38 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 
 ## 📋 Table of Contents
 
-### [Environment Setup](01-Environment-Setup/README.md)
+### [Environment Setup](01-Environment-&-Network-Setup/README.md)
 
 - Installation Media
 - Hardware and Software Specification
   
-### [Network Setup](02-Network-Setup/README.md)
+### [Network Setup](01-Environment-&-Network-Setup/README.md#network-setup)
 
 - VirtualBox Network Configuration
 - Windows Server Network Configuration
   
-### [Windows Server Configuration](03-Windows-Server-Configuration/README.md)
+### [Windows Server Configuration](02-Windows-Server-Configuration/README.md)
 
 - Active Directory Domain Services and Domain
 - DNS
 - DHCP
   
-### [Active Directory Management](04-Active-Directory-Management/README.md)
+### [Active Directory Management](03-Active-Directory-Management/README.md)
 
 - OUs-Users-Groups
 - Joining Client to Domain
 - Group Policy
   
 ### Linux Server
-- [SSH](05-Linux-Server/01-SSH.md)
+- [SSH](04-Linux-Server/01-SSH.md)
   - SSH Configuration
   - Rsync File Transfer
-- [Network](05-Linux-Server/02-Network.md)
+- [Network](04-Linux-Server/02-Network.md)
   - Network Configuration
   - Network Troubleshooting
-- [User & Group Creation & Management](05-Linux-Server/03-User-&-Group-Creation-&-Management.md)
-- [File Permissions](05-Linux-Server/04-File-Permissions.md)
-- [Web Application Service](05-Linux-Server/05-Web-Application-Service.md)
+- [User & Group Creation & Management](04-Linux-Server/03-User-Group-Permission-Management.md)
+- [File Permissions](04-Linux-Server/03-User-Group-Permission-Management.md#file-permissions)
+- [Web Application Service](04-Linux-Server/04-Web-Application-Service/README.md)
   - Description and Application Testing
   - systemd service
   - Application
