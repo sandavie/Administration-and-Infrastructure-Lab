@@ -20,7 +20,7 @@ The following commands were then utilized to safely apply the changes without br
 
 ![Network Testing](../05-Screenshots/04-Linux-Server/02-Network/02-testing-verification.png)
 
-SSH Connection to server with new static IP
+SSH connection to server with new static IP
 
 ![SSH New IP](../05-Screenshots/04-Linux-Server/02-Network/03-ssh-new-ip.png)
 
