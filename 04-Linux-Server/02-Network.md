@@ -18,7 +18,7 @@ The following commands were then utilized to safely apply the changes without br
 - `ip route` verified the default gateway was reachable
 - `resolvectl status` and the `dig` command verified DNS configuration, reachability, and resolver functionality
 
-![Network Testing](../05-Screenshots/04-Linux-Server/02-Network/02-network-testing.png)
+![Network Testing](../05-Screenshots/04-Linux-Server/02-Network/02-testing-verification.png)
 
 SSH Connection to server with new static IP
 
