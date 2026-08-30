@@ -36,6 +36,7 @@
 ---
 
 ## 🗺️ Project Outline
+The documentation is organized to reflect the development process
 1. Environment Setup
 - Setup and verify essential hardware functionality
 - Configure virtual machines (network adapters and operating system installation)
