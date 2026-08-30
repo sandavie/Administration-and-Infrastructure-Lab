@@ -20,12 +20,12 @@ The OpenSSH Server was installed and enabled utilizing `apt` and `systemctl`. Th
 - `systemctl restart ssh`, `systemctl restart ssh`, and `systemctl status` were used to ensure it did not fail
 - Then a variety of commands were used to check for any files with conflicting password settings and those conflictions were rectified
 
-![Password Functionality Disabled](../05-Screenshots/04-Linux-Server/01-SSH/03-password-disabled.png)
+<img src="../05-Screenshots/04-Linux-Server/01-SSH/03-password-disabled.png" width="750">
 
 📷 SSHD Configuration Verification
 
-![SSHD Verification](../05-Screenshots/04-Linux-Server/01-SSH/04-sshd-config-verification.png)
+<img src="../05-Screenshots/04-Linux-Server/01-SSH/04-sshd-config-verification.png" width="700">
 
 - A file `Config` was then created to simplify the SSH connection process as it included the custom SSH port, host IP of the web server and the user's name
 
-![Config File](../05-Screenshots/04-Linux-Server/01-SSH/05-config-file.png)
+<img src="../05-Screenshots/04-Linux-Server/01-SSH/05-config-file.png" width="800">
