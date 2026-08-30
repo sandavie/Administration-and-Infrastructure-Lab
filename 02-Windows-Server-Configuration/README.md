@@ -51,7 +51,7 @@ The selected server roles were added along with the accompanying features and su
 ---
 
 ## 🌐 DNS 
-After the Active Directory Domain Services were configured and installed, the system was restarted. In the DNS Manager, the zone for the domain is can be viewed and the name server record confirms the machine is hosting the zone. Then the DNS registration for the bridged adapter was removed and a series of commands were used to flush the DNS Resolver Cache and register the DNS resource records. 
+After the Active Directory Domain Services were configured and installed, the system was restarted. In the DNS Manager, the zone for the domain can be viewed and the name server record confirms the machine is hosting the zone. Then the DNS registration for the bridged adapter was removed and a series of commands were used to flush the DNS Resolver Cache and register the DNS resource records. 
 
 🖼️ Active Directory DNS Zone
 
