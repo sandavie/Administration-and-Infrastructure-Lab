@@ -12,6 +12,7 @@ In the IT organizational unit for instance there are users:
 - James Howlett
 - Jean Grey
 - Scott Summers
+  
 With the last three belonging to a group IT Staff. Each user was created with sophisticated credentials. The OUs have sub OUs Users and Computers to distinguish components for group policy that will be implemented. There are many other users and groups in the other OUs but those mentioned here will be present throughout the other systems in the lab environment as well.
 
 ---
@@ -43,7 +44,7 @@ With the last three belonging to a group IT Staff. Each user was created with so
 ## 📁 File Permissions
 
 - A folder `data` was created and access to this folder was given to users that are members of the group `IT Staff`
-- Their specific permissions were configured as well.
+- The specific permissions were configured as well
 
 ![Permissions](../05-Screenshots/03-Active-Directory-Management/07-permissions.png)
 
