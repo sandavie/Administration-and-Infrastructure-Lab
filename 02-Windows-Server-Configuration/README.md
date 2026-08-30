@@ -15,4 +15,16 @@ The bridged and internal network adapters were configured with static IP address
 
 ![DC-01 Network Configuration](../05-Screenshots/02-Windows-Server-Configuration/01-network-adapter-1-configuration.png)
 
+![DC-01 Network Configuration 2](../05-Screenshots/02-Windows-Server-Configuration/02-network-adapter-2-configuration.png)
 
+The commands `ping` and `ipconfig` were utilized to test and verify successful IP configuration, DNS resolution, and gateway reachability.
+
+![DC-01 Network Verification 1](../05-Screenshots/02-Windows-Server-Configuration/03-server-network-verification.png)
+
+![DC-01 Network Verification 2](../05-Screenshots/02-Windows-Server-Configuration/04-server-network-verification-2.png)
+
+## Server Roles 
+
+The selected server roles were added along with the accompanying features and supplementary roles required for their functionality.
+
+![DC-01 Server Roles](../05-Screenshots/02-Windows-Server-Configuration/01-network-adapter-1-configuration.png)
