@@ -44,7 +44,7 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
   - systemd service
   - Application
 
-#### Screenshots
+#### [Screenshots](05-Screenshots/)
 ---
 ## 🎯 Objectives
 - Administer an Windows Server with Active Directory Domain Services, DNS, and DHCP
