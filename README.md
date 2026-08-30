@@ -13,7 +13,7 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 - Installation Media
 - Hardware and Software Specification
   
-### [Network Setup](01-Environment-&-Network-Setup/README.md#network-setup)
+### [Network Setup](01-Environment-&-Network-Setup/README.md#-network-setup)
 
 - VirtualBox Network Configuration
 - Windows Server Network Configuration
@@ -38,7 +38,7 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
   - Network Configuration
   - Network Troubleshooting
 - [User & Group Creation & Management](04-Linux-Server/03-User-Group-Permission-Management.md)
-- [File Permissions](04-Linux-Server/03-User-Group-Permission-Management.md#file-permissions)
+- [File Permissions](04-Linux-Server/03-User-Group-Permission-Management.md#-file-permissions)
 - [Web Application Service](04-Linux-Server/04-Web-Application-Service/README.md)
   - Description and Application Testing
   - systemd service
