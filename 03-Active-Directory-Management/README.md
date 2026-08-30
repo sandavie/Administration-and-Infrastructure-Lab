@@ -54,7 +54,9 @@ With the last three belonging to a group IT Staff. Each user was created with so
 
 ## 👥 Joining Client to Domain 
 - Prior to joining the domain, network connectivity was verified with a series of commands in Command Prompt
-- `ipconfig /all` shows the DHCP server, DNS, default gateway, IP from DHCP (within the IP address range configured in the DHCP setup) were all as expected  `ping` commands test network connectivity while the `nslookup` commands test DNS name resolution 
+- `ipconfig /all` shows the DHCP server, DNS, default gateway, and IP from DHCP (within the IP address range configured in the DHCP setup) were all as expected
+- `ping` commands test network connectivity
+- `nslookup` commands test DNS name resolution 
 
 📷 DHCP Verification
 
