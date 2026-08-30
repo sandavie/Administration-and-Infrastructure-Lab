@@ -29,7 +29,7 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 - OUs-Users-Groups
 - Joining Client to Domain
 - Group Policy
-  
+
 ### Linux Server
 - [SSH](04-Linux-Server/01-SSH.md)
   - SSH Configuration
@@ -38,7 +38,7 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
   - Network Configuration
   - Network Troubleshooting
 - [User & Group Creation & Management](04-Linux-Server/03-User-Group-Permission-Management.md)
-- [File Permissions](04-Linux-Server/03-User-Group-Permission-Management.md#-file-permissions)
+- [File Permissions](04-Linux-Server/03-User-Group-Permission-Management.md#%EF%B8%8F-file-permissions)
 - [Web Application Service](04-Linux-Server/04-Web-Application-Service/README.md)
   - Description and Application Testing
   - systemd service
