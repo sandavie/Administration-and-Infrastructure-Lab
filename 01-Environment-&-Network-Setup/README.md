@@ -38,7 +38,7 @@
 
 ## 🖧 Network Setup
 
-## 🗺️ Overview
+### 🗺️ Overview
 
 | Machine Name                    | IP Address(es) |
 |---------------------------------|----------------|
@@ -50,7 +50,7 @@
 
 ---
 
-## 🗺️ Project Outline
+### 📋 Project Outline
 The documentation is organized to reflect the development process
 1. Environment Setup
 - Setup and verify essential hardware functionality
