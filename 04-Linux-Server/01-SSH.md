@@ -1,6 +1,6 @@
 # 🔐 SSH
 ## Overview
-In this segment of the lab there are two core machines. One named `wsl-station` on the host machine which uses SSH to configure the machine named `web-server` beyond it's initial system setup.
+In this segment of the lab there are two core machines. One named `wsl-station` on the host machine which uses SSH to configure the machine named `web01` beyond it's initial system setup.
 
 ---
 
