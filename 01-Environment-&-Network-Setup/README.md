@@ -36,7 +36,7 @@
 
 ---
 
-# 🖧 Network Setup
+## 🖧 Network Setup
 
 ## 🗺️ Overview
 
