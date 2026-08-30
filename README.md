@@ -47,3 +47,8 @@ Welcome to my hybrid infrastructure home lab consisting of three core segments u
 ### Screenshots
 ---
 ## 🎯 Objectives
+- Administer an Windows Server with Active Directory Domain Services, DNS, and DHCP
+- Construct network interconnected hybrid environment with physical and virtual machines
+- Create and manage users, groups, and organizational units with access permissions and group policy
+- Administer Ubuntu Linux server with SSH, networking, user/group management
+- Creation and deployment of a web application as a service with systemd
