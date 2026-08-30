@@ -56,27 +56,27 @@ With the last three belonging to a group IT Staff. Each user was created with so
 
 📷 DHCP Verification
 
-![DHCP Verification](../05-Screenshots/02-Windows-Server-Configuration/08-permissions-2.png)
+![DHCP Verification](../05-Screenshots/02-Windows-Server-Configuration/9-dhcp-verification.png)
 
 📷 DNS Verification
 
-![DNS Verification](../05-Screenshots/02-Windows-Server-Configuration/08-permissions-2.png)
+![DNS Verification](../05-Screenshots/02-Windows-Server-Configuration/10-dns-verification)
 
 - The client was then joined to the domain using the Administrator account in Active Directory Domain Services.
 - The client was then restarted and after the screenshots provided below the computer name was changed to `WIN10-CLIENT01`
 
-![Joining Domain](../05-Screenshots/02-Windows-Server-Configuration/08-permissions-2.png)
+![Joining Domain](../05-Screenshots/02-Windows-Server-Configuration/11-joining-domain.png)
 
-![Joining Domain Confirmation](../05-Screenshots/02-Windows-Server-Configuration/08-permissions-2.png)
+![Joining Domain Confirmation](../05-Screenshots/02-Windows-Server-Configuration/12-joining-domain-confirmation.png)
 
 - The computer account was then added to the `Computers` sub organizational unit of the IT organizational unit
 - The credentials of Jean Grey were then used to login to the Windows 10 client
 
-![Computer OU](../05-Screenshots/02-Windows-Server-Configuration/08-permissions-2.png)
+![Computer OU](../05-Screenshots/02-Windows-Server-Configuration/13-computer-ou.png)
 
 📷 Domain Verification
 
-![Domain Verification](../05-Screenshots/02-Windows-Server-Configuration/08-permissions-2.png)
+![Domain Verification](../05-Screenshots/02-Windows-Server-Configuration/14-domain-verification.png)
 
 ---
 
