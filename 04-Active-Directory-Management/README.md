@@ -80,3 +80,65 @@ With the last three belonging to a group IT Staff. Each user was created with so
 
 ---
 
+## 📃 Group Policy 
+
+- A GPO was created for the IT organizational unit which will be used to deploy software across computers in the OU
+
+![GPO Creation](../05-Screenshots/02-Windows-Server-Configuration/15-gpo-creation.png)
+
+- A folder `Software` was created in the C: disk with a 7-Zip installation file inside
+- The folder was then shared with domain users and computers who were given read permissions
+- For NTFS permissions, domain computers were given read and execute permissions 
+
+📷 Software Folder Sharing
+
+![Software Folder Sharing](../05-Screenshots/02-Windows-Server-Configuration/16-software-sharing.png)
+
+📷 Share Permissions
+
+![Share Permissions](../05-Screenshots/02-Windows-Server-Configuration/17-share-permissions.png)
+
+📷 NTFS Permissions
+
+![NTFS Permissions](../05-Screenshots/02-Windows-Server-Configuration/18-ntfs_permissions.png)
+
+- The Windows client (**WIN10-CLIENT01**) had access to the file indicating the share permissions worked as intended
+- The deployment method was then selected
+
+![Client Permission Verification](../05-Screenshots/02-Windows-Server-Configuration/19-client-permission-verification.png)
+
+📷 Software Deployment Configuration
+
+![Software Deployment Configuration](../05-Screenshots/02-Windows-Server-Configuration/20-software-deployment-configuration.png)
+
+![Software Deployment Configuration 2](../05-Screenshots/02-Windows-Server-Configuration/21-software-deployment-configuration-2.png)
+
+- On the client, (**WIN10-CLIENT01**) `gpupdate /force` was ran and the system was subsequently restarted
+- The software was successfully installed
+
+![Installation Verification](../05-Screenshots/02-Windows-Server-Configuration/22-installation-verification.png)
+
+### 🔑 Password Policy
+
+- Using the default domain policy in group policy management, password policy was implemented
+- Beyond what is already displayed in the visuals below the lockout duration was set to 20 minutes and the minimum password duration was momentarily set to 0 days to test the changes
+- After password policy verification, `gpupdate /force` was ran
+
+📷 Password Policy
+
+![Password Policy](../05-Screenshots/02-Windows-Server-Configuration/23-password-policy.png)
+
+📷 Group Policy Update
+
+![Group Policy Update](../05-Screenshots/02-Windows-Server-Configuration/24-group-policy-update.png)
+
+📷 Password Policy Verification
+
+![Password Policy Verification](../05-Screenshots/02-Windows-Server-Configuration/25-password-policy-verification.png)
+
+- A password of the same complexity as the initial password before the password policy chnages was attempted and failed
+
+![Password Policy Verification 2](../05-Screenshots/02-Windows-Server-Configuration/26-password-policy-check.png)
+
+
+
