@@ -5,6 +5,7 @@ In Active Directory Users and Computers, various organizational units, users, an
 - Managers
 - Marketing
 - Sales
+  
 In the IT organizational unit for instance there are users:
 - Aristotle
 - Robert Oppenheimer
