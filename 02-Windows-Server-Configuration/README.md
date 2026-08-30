@@ -91,6 +91,7 @@ After the Active Directory Domain Services were configured and installed, the sy
 - Scope name was set: `DC Scope`
   
 🖼️ Server Options
+
 ![Server Options Router](../05-Screenshots/02-Windows-Server-Configuration/16-server-options-router.png)
 
 ![Server Options NS](../05-Screenshots/02-Windows-Server-Configuration/17-server-options-ns.png) 
